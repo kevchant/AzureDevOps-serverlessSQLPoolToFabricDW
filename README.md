@@ -5,7 +5,7 @@ You can find the YAML file which you can use as a template for the Azure Pipelin
 
 Note that you need a recent version of SQLPackage for this to work.
 
-The '[serverlessSQLPool-sqlpackage.yml pipeline](https://github.com/kevchant/AzureDevOps-SynpaseServerlessSQLPool-dacpac/blob/main/AzureDevOpsTemplates/serverlessSQLPool-sqlpackage.yml)' extracts the contents of a database in a serverless SQL Pool to a dacpac. It then deploys the contents of the dacpac to a Microsoft Fabric Data Warehouse.
+The '[serverlessSQLPool-sqlpackage.yml pipeline](https://github.com/kevchant/AzureDevOps-serverlessSQLPoolToFabricDW/blob/main/AzureDevOpsTemplates/serverlessSQLPool-sqlpackage.yml)' extracts the contents of a database in a serverless SQL Pool to a dacpac. It then deploys the contents of the dacpac to a Microsoft Fabric Data Warehouse.
 
 Please note that you need the below variables created for this YAML pipeline to work:
 I recommend doing this by creating at least one variable group
